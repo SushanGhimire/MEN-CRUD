@@ -19,4 +19,6 @@ const url ='mongodb+srv://sushangmi55:sushan987654321@men.zf0xq.mongodb.net/men?
  const user= require("./models/user.js");
  app.use("/user", user);
  
+ const userinfo = require('./models/userinfo.js');
+ app.use("/userinfo",userinfo);
  
